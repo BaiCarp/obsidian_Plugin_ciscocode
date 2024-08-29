@@ -1,0 +1,16 @@
+{
+  "name": "obsidian_plug",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "build":"tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "obsidian": "^1.5.7-1"
+  }
+}

@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* 
+  commandPrompt 命令提示符
+  text  普通文本
+  command 命令
+  number  普通数字
+  interface 接口
+  ip-address IP地址
+  file  文件
+*/
+
+.cisco-cli-commandPrompt{color: #008080;}
+.cisco-cli-text {color: #000000; }
+.cisco-cli-command {color: #ff8c00; }
+.cisco-cli-number {color: #aa78aa;}
+.cisco-cli-interface{color:#003153 ;}
+.cisco-cli-ip-address{color:#656598 ;}
+.cicso-cli-file { color: pink ;}
+
+.cisco-cli {
+  font-family: monospace;
+  white-space: pre;
+}
+
+.cisco-cli-line {
+  display: flex;
+  align-items: baseline;
+}

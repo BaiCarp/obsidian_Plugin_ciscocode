@@ -1,0 +1,10 @@
+{
+  "id": "cisco_code_plugin",
+  "name": "Cisco Code Block Plugin",
+  "version": "0.0.1",
+  "minAppVersion": "0.9.0",
+  "author": "Carp Bai",
+  "description": "A plugin to insert Cisco code blocks into Obsidian.",
+  "main": "main.js",
+  "styles": ["styles.css"]
+}
