@@ -1,27 +1,3 @@
-Obsidian Plugin
-│
-├── styles/
-│   └── （这里可以放置插件相关的CSS样式文件）
-│
-├── manifest.json
-│
-├── main.ts
-│   ├── CiscoCliPlugin (类定义)
-│   │   ├── onload (异步加载方法)
-│   │   │   └── 注册样式和Markdown代码块处理器
-│   │   ├── registerMarkdownCodeBlockProcessor (Markdown 代码块处理器注册)
-│   │   │   └── 调用 processLine 方法处理每一行
-│   │   ├── processLine (行处理方法)
-│   │   │   ├── 定义正则表达式匹配命令提示符、命令、接口、IP地址和普通数字
-│   │   │   ├── 使用正则表达式对命令行进行格式化
-│   │   │   └── 调用 createSpan 和 createDiv 辅助函数
-│   │   └── 辅助函数
-│   │       ├── createDiv ({ cls?: string } = {})
-│   │       │   └── 创建并返回一个带有指定类的 div 元素
-│   │       └── createSpan ({ cls?: string } = {})
-│   │           └── 创建并返回一个带有指定类的 span 元素
-
-
 该插件的效果是：输入Cisco的命令，将命令高亮显示
 
 
